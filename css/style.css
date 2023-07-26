@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+}
+h1{
+    font-size: 58px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-head{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+}
+.pricing-head h3{
+    padding: 10px;
+}
+.pricing-head h1{
+    padding: 10px;
+}
+.pricing-head p{
+    padding: 10px;
+}
+.pricing-list{
+    margin-top: 80px;
+}
+.price-box-list{
+    display: flex;
+}
+.price-box{
+    height:450px;
+    width: 260px;
+    margin-right: 20px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 1px solid #F3F1F1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+.box-top{
+    background-color: darkblue;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+}
+.box-top h3{
+    padding-left: 20px;
+}
+.box-head{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px
+}
+.box-main{
+    height: 300px;
+    width: 200px;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 140px;
+}
+.box-main-content{
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    color: black;
+    margin-top: 70px;
+}
+.box-main li{
+    padding: 10px;
+}
+.btn-area{
+    padding-left: 10px;
+}
+.btn{
+    height: 40px;
+    width: 120px;
+    border: 2px solid darkblue;
+    color: darkblue;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.icon img{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 13px;
+}
